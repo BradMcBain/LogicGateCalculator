@@ -1,12 +1,11 @@
 public class LogicGateSolver {
 
 	enum LogicGate {
-		OR,
-		AND
+		OR
 	}
 
 	Integer computeOR(Integer a, Integer b){
-		return a + b;
+		return a | b;
 	}
 
 	//TODO Support more logic gate types
